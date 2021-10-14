@@ -1,4 +1,3 @@
-from collections import OrderedDict
 
 def getTuples():
     print("Enter 5 tuples (format: A01RB, B 1RC, etc.) Press '.' to end.")
