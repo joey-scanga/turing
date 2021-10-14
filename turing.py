@@ -83,7 +83,7 @@ def readTape(tupleDict, tape, limit):
                 if i == limit:
                     print("Ended: max iterations reached")
             else: 
-                print("Ended: no valid instruction to continue")
+                print("Halted!")
                 return
     
 def main():
