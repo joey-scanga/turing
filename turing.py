@@ -80,7 +80,10 @@ def readTape(tupleDict, tape, limit):
                 #print(*tape)
                 print(tapeString+"{"+currentTupleKey+"}")
                 currentTupleKey = tuple[4]
+                if i == limit:
+                    print("Ended: max iterations reached")
             else: 
+                print("Ended: no valid instruction to continue")
                 return
     
 def main():
